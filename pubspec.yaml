@@ -1,0 +1,16 @@
+name: desires
+description: DESIRES - Find workers near you
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.2.6
+  image_picker: ^1.1.2
+  geolocator: ^12.0.0
+  share_plus: ^9.0.0
+flutter:
+  uses-material-design: true
